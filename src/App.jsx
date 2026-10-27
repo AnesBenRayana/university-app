@@ -1,5 +1,7 @@
 import "./App.css";
 import StudentCard from "./components/StudentCard.jsx";
+
+
    
 
 
@@ -16,10 +18,10 @@ const etudiants = [
     
   },
   {
-    prenom: "Sarra",
-    nom: "Trabelsi",
-    email: "sarratrabelsi@gmail.com",
-    telephone: "+216 22 333 444",
+    prenom: "Anes",
+    nom: "Ben Rayana",
+    email: "anesbenrayana22@gmail.com",
+    telephone: "+216 56 492 320",
     filiere: "Informatique",
     anneeEtude: "2ème année",
     groupe: "GLSI 2",
@@ -27,9 +29,9 @@ const etudiants = [
     
   },
   {
-    prenom: "Mariem",
+    prenom: "Ahmed",
     nom: "Khalfallah",
-    email: "mariemkhalfallah@gmail.com",
+    email: "ahmedkhalfallah@gmail.com",
     telephone: "+216 55 666 777",
     filiere: "Génie Logiciel et Systèmes d'Information",
     anneeEtude: "2ème année",
@@ -52,7 +54,7 @@ function App() {
       anneeEtude={etudiant.anneeEtude}
       groupe={etudiant.groupe}
       ville={etudiant.ville}
-     
+     image={etudiant.image}
     />
   ))}
 </div>

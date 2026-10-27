@@ -7,6 +7,9 @@ function StudentCard(props) {
         
         <h1>Fiche étudiant</h1>
 
+        <img className="student-image" 
+        src={props.image} />
+
         <p>
           <strong>Nom & Prénom :</strong>
           {props.prenom} {props.nom}
@@ -41,6 +44,10 @@ function StudentCard(props) {
           <strong>Ville :</strong>
           {props.ville}
         </p>
+
+        <button>Connecter</button>
+
+        
 
         
       </div>
